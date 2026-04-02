@@ -24,14 +24,11 @@ nltk.download('punkt')
 nltk.download('stopwords')
 ⚙️ Installation
 1. Clone the repository
-   
 git clone https://github.com/cv123devika/CodeAlpha_Chatbot
 
-3. Install dependencies
-   
+3. Install dependencies  
 pip install streamlit nltk scikit-learn
-5. Download NLTK data
-
+4. Download NLTK data
 Run this once in Python:
 
 import nltk
