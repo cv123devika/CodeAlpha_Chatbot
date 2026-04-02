@@ -53,7 +53,9 @@ Otherwise → show a fallback message.
 - Deploy on Streamlit Cloud or Heroku.
 
 🧑‍💻 Author
+
 Developed by DEVIKA C V
+
 Feel free to contribute or suggest improvements!
 
 
