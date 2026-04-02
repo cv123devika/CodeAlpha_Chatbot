@@ -34,6 +34,10 @@ Some of the questions included:
 - Can AI replace humans?
 You can easily add more FAQs by editing faq_data.py.
 
+Run the chatbot:
+python -m streamlit run chatbot.py
+
+
 ⚡ How It Works
 - User enters a question in the Streamlit UI.
 - The input is preprocessed (lowercased, tokenized, stopwords removed).
