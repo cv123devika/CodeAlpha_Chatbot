@@ -1,0 +1,21 @@
+faq = {
+    "What is AI?": "AI stands for Artificial Intelligence. It enables machines to mimic human intelligence.",
+    "What is ML?": "Machine Learning is a subset of AI that allows systems to learn from data.",
+    "What is Deep Learning?": "Deep Learning is a subset of Machine Learning that uses neural networks to learn from large amounts of data.",
+    "What is Python?": "Python is a popular programming language used for AI, data science, and web development.",
+    "What is NLP?": "NLP stands for Natural Language Processing, which allows computers to understand and process human language.",
+    "What is a neural network?": "A neural network is a computing system inspired by the human brain, used in AI for pattern recognition.",
+    "What is supervised learning?": "Supervised learning is a type of Machine Learning where the model is trained on labeled data.",
+    "What is unsupervised learning?": "Unsupervised learning is a type of Machine Learning where the model learns patterns from unlabeled data.",
+    "What is reinforcement learning?": "Reinforcement learning is a type of ML where agents learn by receiving rewards or penalties.",
+    "How to install Python?": "You can download Python from python.org and follow the installation instructions for your OS.",
+    "How to install NLTK?": "Run 'pip install nltk' in your terminal or command prompt.",
+    "How to contact support?": "You can contact support via email at support@example.com.",
+    "What is Streamlit?": "Streamlit is a Python library used to create interactive web apps easily, especially for data and ML projects.",
+    "Can AI replace humans?": "AI can automate tasks but cannot fully replace humans, especially in decision-making and creativity.",
+    "What is a dataset?": "A dataset is a collection of data used to train or evaluate Machine Learning models.",
+    "What is a model in AI?": "A model is a mathematical representation learned from data that can make predictions or decisions.",
+    "What is overfitting?": "Overfitting happens when a model performs well on training data but poorly on new, unseen data.",
+    "What is underfitting?": "Underfitting happens when a model is too simple to capture the patterns in the data.",
+    "What is computer vision?": "Computer vision is a field of AI that enables computers to interpret and process visual information from images or videos."
+}
