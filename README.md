@@ -36,9 +36,7 @@ pip install streamlit nltk scikit-learn
 Run this once in Python:
 
 import nltk
-
 nltk.download('punkt')
-
 nltk.download('stopwords')
 
 ▶️ How to Run
