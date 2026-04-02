@@ -18,11 +18,6 @@ This chatbot uses TF-IDF vectorization and cosine similarity to match user queri
 
 
 
- Download NLTK resources
-import nltk
-nltk.download('punkt')
-nltk.download('stopwords')
-
 ⚙️ Installation
 1. Clone the repository
    
@@ -36,7 +31,9 @@ pip install streamlit nltk scikit-learn
 Run this once in Python:
 
 import nltk
+
 nltk.download('punkt')
+
 nltk.download('stopwords')
 
 ▶️ How to Run
