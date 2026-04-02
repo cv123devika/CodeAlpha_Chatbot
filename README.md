@@ -11,13 +11,11 @@ This chatbot uses TF-IDF vectorization and cosine similarity to match user queri
 - Easy to extend by adding new FAQs
 
 🛠️ Tech Stack
-- Python 3.8+
+- Python 
 - Streamlit – for the web interface
 - scikit-learn – for TF-IDF and similarity calculation
 - NLTK – for text preprocessing (tokenization, stopwords)
 
- Install dependencies
-pip install -r requirements.txt
 
 
  Download NLTK resources
