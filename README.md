@@ -22,17 +22,23 @@ This chatbot uses TF-IDF vectorization and cosine similarity to match user queri
 import nltk
 nltk.download('punkt')
 nltk.download('stopwords')
+
 ⚙️ Installation
 1. Clone the repository
+   
 git clone https://github.com/cv123devika/CodeAlpha_Chatbot
 
 3. Install dependencies  
 pip install streamlit nltk scikit-learn
+
 4. Download NLTK data
+   
 Run this once in Python:
 
 import nltk
+
 nltk.download('punkt')
+
 nltk.download('stopwords')
 
 ▶️ How to Run
