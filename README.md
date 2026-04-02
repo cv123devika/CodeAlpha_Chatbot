@@ -1,4 +1,5 @@
 🤖 FAQ Chatbot
+
 An interactive FAQ chatbot built with Streamlit, scikit-learn, and NLTK.
 This chatbot uses TF-IDF vectorization and cosine similarity to match user queries with predefined FAQ answers.
 
