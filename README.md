@@ -1,48 +1,59 @@
-🤖 AI Chatbot
+🤖 FAQ Chatbot
+An interactive FAQ chatbot built with Streamlit, scikit-learn, and NLTK.
+This chatbot uses TF-IDF vectorization and cosine similarity to match user queries with predefined FAQ answers.
 
-A FAQ-based AI chatbot built with Python, Streamlit, and scikit-learn.
-Ask questions and get instant answers from a pre-defined FAQ database.
+📌 Features
+- Simple and interactive Streamlit UI
+- Preprocessing with NLTK (tokenization + stopword removal)
+- FAQ matching using TF-IDF and cosine similarity
+- Threshold-based response handling (fallback when similarity is low)
+- Easy to extend by adding new FAQs
 
-🌟 Features
-FAQ-based chatbot 🤖
-Instant responses ⚡
-Handles common AI/ML questions 💡
-Simple, lightweight, and easy to extend 🛠
-🛠 Tech Stack
-Python
-Streamlit – interactive web app
-scikit-learn – TF-IDF & cosine similarity
-NLTK – natural language preprocessing
-🚀 How to Run
-Navigate to the project folder:
-cd CodeAlpha_Chatbot
-Install dependencies:
-pip install nltk scikit-learn streamlit
-Download NLTK stopwords and punkt (if not already):
+🛠️ Tech Stack
+- Python 3.8+
+- Streamlit – for the web interface
+- scikit-learn – for TF-IDF and similarity calculation
+- NLTK – for text preprocessing (tokenization, stopwords)
+
+ Install dependencies
+pip install -r requirements.txt
+
+
+ Download NLTK resources
 import nltk
 nltk.download('punkt')
 nltk.download('stopwords')
-Run the chatbot:
-python -m streamlit run chatbot.py
-Use it:
-Type your question in the input box and click Get Answer 🎯
-📚 FAQ Database
 
-The chatbot uses faq_data.py for questions and answers.
-You can add more FAQs by editing the faq dictionary inside faq_data.py.
 
-Example:
+📖 Example FAQs
+Some of the questions included:
+- What is AI?
+- What is Machine Learning?
+- What is Deep Learning?
+- How to install Python?
+- What is Streamlit?
+- Can AI replace humans?
+You can easily add more FAQs by editing faq_data.py.
 
-faq = {
-    "What is AI?": "AI stands for Artificial Intelligence...",
-    "What is ML?": "Machine Learning is a subset of AI...",
-    ...
-}
-⚠️ Notes
-Similarity threshold: 0.3
-If the question is too different from the FAQ, a warning is shown:
-🤔 "Sorry, I don't know the answer to that question yet!"
-Perfect for small AI demos and learning purposes.
-📝 License
+⚡ How It Works
+- User enters a question in the Streamlit UI.
+- The input is preprocessed (lowercased, tokenized, stopwords removed).
+- The system computes TF-IDF vectors for all FAQ questions + user query.
+- Cosine similarity is used to find the closest FAQ.
+- If similarity ≥ 0.3 → return the best answer.
+Otherwise → show a fallback message.
 
-MIT License
+📌 Future Improvements
+- Add semantic search using embeddings (e.g., Sentence Transformers).
+- Support multi-turn conversations.
+- Integrate with external knowledge bases.
+- Deploy on Streamlit Cloud or Heroku.
+
+🧑‍💻 Author
+Developed by DEVIKA C V
+Feel free to contribute or suggest improvements!
+
+
+
+
+
